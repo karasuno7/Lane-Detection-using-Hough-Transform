@@ -8,7 +8,7 @@ In this project, I use Canny Edge Detection and Hough Transforms to detect lines
 
 The third video was an optional challenge video and you'll see my lane lines start to get a little wonky part way through. This is due to the shadows cast by the tree adding noise to the detected lines. As well as the Canny Edge Detection having a hard time picking up the yellow line on the whiter section of road. In an attempt to combat the noise, I tried to tighten the filters I was using to determine if a hough_line was part of a lane line. To combat the trouble finding a yellow line on a white road I tinkered with my canny edge thresholds and lowered them from 50 and 150 to 25 and 75.
 
-#### **YouTube:** https://www.youtube.com/watch?v=DgkROMIthNI
+
 
 ## **Directory**
 - **test_images**
